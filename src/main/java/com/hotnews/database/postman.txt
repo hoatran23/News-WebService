@@ -1,0 +1,16 @@
+localhost:8081/api/news/
+
+POST PUT method:
+{
+    "title": "adfdsf",
+    "content": "ok",
+    "shortDescription": "a",
+    "categoryCode": "the-thao",
+    "thumbnail": "a"
+}
+
+DELETE method:
+==> ["4", "5", "6", "7"]
+
+GET - PAGINATION method:
+==> localhost:8081/api/news?page=1&limit=2
